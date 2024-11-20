@@ -27,3 +27,33 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+main img {
+  width: 100%
+}
+
+.group,
+.basics,
+.history {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media all and (min-width: 800px) {
+  .group {
+    display: flex;
+    flex-direction: row;
+  }
+.basics,
+.history,
+.gallery {
+  padding: 10px;
+}
+.group-gallery{
+  display: flex;
+  flex-direction: row;
+  background-color: saddlebrown;
+  padding:15px;
+}
+}
